@@ -1,0 +1,256 @@
+body{
+<<<<<<< HEAD
+    background: rgb(123, 222, 230);
+=======
+    background: rgb(175, 175, 175);
+>>>>>>> c649c65b1ce7efff2b629e4a617f1ae54ed74a67
+
+    overflow: hidden;
+}
+#canvas1{
+    position: relative;
+<<<<<<< HEAD
+    width: 1400px;
+    height: 680px;
+    
+}
+ #container{
+    /* position: absolute;
+    width: 800px;
+    transform: translate(-42%,-47% );
+    top: 50%;
+    left: 35%;
+    z-index: -5;
+    */
+   
+    position :absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    width: 80%;
+    height: 650px;
+ 
+=======
+    width: 1200px;
+    height: 600px;
+    
+    
+}
+ #container{
+    position: absolute;
+    width: 800px;
+    transform: translate(-50%,-50% );
+    top: 50%;
+    left: 35%;
+   
+    background-size: cover;
+>>>>>>> c649c65b1ce7efff2b629e4a617f1ae54ed74a67
+    font-size: 25px;
+
+ }
+ #slider{
+     width : 100%;
+    
+ }
+ p{
+    color: rgb(8, 8, 8);
+    text-align: center;
+ }
+<<<<<<< HEAD
+ /* .moon{
+     position: absolute;
+     width : 250px;
+     height : 250px;
+   
+     top: 70%;
+     left: 20%;
+     transform: translate(-50%,-50%);
+  
+ } */
+ /* .dog{
+     position: absolute;
+     top: 75%;
+     left : 20%;
+=======
+ .moon{
+     position: absolute;
+     width : 250px;
+     height : 250px;
+     /* border: 1px solid rgba(0,0,0,0.3);
+     border-radius: 50%; */
+     top: 70%;
+     left: 20%;
+     transform: translate(-50%,-50%);
+     /* background :#d8d8d8;
+     box-shadow: inset 15px 15px 10px #999; */
+ }
+ .dog{
+     position: absolute;
+     top:40%;
+     left : 50%;
+>>>>>>> c649c65b1ce7efff2b629e4a617f1ae54ed74a67
+     background : transparent url('img/dog.png')0 0 no-repeat;
+     width: 302px;
+     height :302px;
+     transform: translate(-50%,-50%);
+     margin: 2em auto;
+<<<<<<< HEAD
+     animation: run 1s steps(21) infinite; 
+=======
+     animation: run 1s steps(21) infinite;
+>>>>>>> c649c65b1ce7efff2b629e4a617f1ae54ed74a67
+ }
+ @keyframes run {
+    100%{
+        background-position: -6342px , 0;
+<<<<<<< HEAD
+    } */
+ /* }  */
+.obstacle{
+    position: fixed;
+    top : 80%;
+    /* left: 100%; */
+    height : 60px;
+   width : 60px;
+    right : 5vw;
+    animation: obstacle 8s linear infinite;
+    border: 2px solid red;
+
+}
+@keyframes obstacle {
+    0%{
+        left: 100vw;
+    }
+    100%{
+       left : -10vw;
+    }
+}
+.obstacle1{
+    position: fixed;
+    top : 40%;
+    /* left: 100%; */
+    height : 5px;
+    width: 5px;
+    right : 5vw;
+    animation: obstacle1 6s linear infinite;
+
+}
+@keyframes obstacle1 {
+    0%{
+        left: 100vw;
+    }
+    100%{
+       left : -10vw;
+    }
+}
+.obstacle2{
+    position: fixed;
+    top : 50%;
+    /* left: 100%; */
+    height : 5px;
+    width: 5px;
+    right : 5vw;
+    animation: obstacle2 4s linear infinite;
+
+}
+@keyframes obstacle2 {
+    0%{
+        left: 100vw;
+    }
+    100%{
+       left : -10vw;
+    }
+}
+.obstacle3{
+    position: fixed;
+    top : 30%;
+    /* left: 100%; */
+    height : 5px;
+    width: 5px;
+    right : 5vw;
+    animation: obstacle2 5s linear infinite;
+
+}
+@keyframes obstacle3 {
+    0%{
+        left: 100vw;
+    }
+    100%{
+       left : -10vw;
+    }
+}
+.obstacle4{
+    position: fixed;
+    top : 80%;
+    /* left: 100%; */
+    height : 5px;
+    width: 5px;
+    right : 5vw;
+    animation: obstacle2 2s linear infinite;
+
+}
+@keyframes obstacle4 {
+    0%{
+        left: 100vw;
+    }
+    100%{
+       left : -10vw;
+    }
+}
+/* #hitbox{
+border: 1px solid red;
+background-size: 18rem;
+position: absolute;
+width: 55px;
+height: 150px;
+/* left : 0; */
+top:67%;
+left: calc(50% - 2px);
+
+z-index: 8;
+} */
+=======
+    }
+}
+ p.loading{
+     width:100%;
+     height : 10px;
+     font-family: monospace;
+     position : absolute;
+     left: 0;
+     bottom: -50px;
+     color: thistle;
+     font-size: 20px;
+     text-shadow: 1px 1px 1px #737373;
+     text-align: center;
+ }
+ input.left , input.right,
+ span.left , span.right{
+     position: absolute;
+     top: -20px;
+     width : 20px;
+     height : 20px;
+     cursor: pointer;
+     z-index: 20;
+ }
+ span.left , span.right{
+pointer-events: none;
+color: #4c4c4c;
+font-size: 20px;
+text-shadow: 1px 1px 1px #faf3f3;
+ }
+ input.left , span.left{
+     left :0;
+ }
+ input.right , span.right{
+    right:0;
+}
+input.left , input.right{
+opacity: 0;
+}
+.left:checked ~ .dog{
+transform: translate(-50%,-50%) rotateY(180deg);
+}
+
+>>>>>>> c649c65b1ce7efff2b629e4a617f1ae54ed74a67
